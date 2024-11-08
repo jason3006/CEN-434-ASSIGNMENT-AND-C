@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Average of Numbers </title>
+    </head>
+    <body>
+        <h2> Calculate the Average of 10 numbers </h2>
+        <h2 id = "result"> </h2>
+
+        <script>
+            const A = [1,2,3,4,5,6,7,8,9,10];
+            let sum = 0;
+            for (let i = 0; i < A.length; i++) {
+                 sum += A[i];
+    
+            }
+            const average = sum / A.length;
+            document.getElementById("result").innerText = "The average is: " + average;
+            </script>
+
+
+
+
+
+        </body>
+        </html>
+
